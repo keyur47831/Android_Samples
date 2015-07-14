@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/ShopName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+android:text="ShopName"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+
+
+
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ShopName"
+        android:text="Address"
+        android:layout_marginTop="1dip"
+        android:textSize="15dip" />
+
+    <TextView
+        android:id="@+id/Distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Address"
+        android:layout_alignParentBottom="true"
+
+        android:text="Distance"
+        android:layout_marginTop="10dp"
+        android:textSize="15dip" />
+
+
+
+</RelativeLayout>
