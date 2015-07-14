@@ -1,5 +1,6 @@
 # Android_Samples
-1) CoffeeSearch
+1) CoffeeSearch :
+
 Implementation of Foursquare API with Android
 
 Befor getting started Add new CLIENT_ID and CLIENT_SECRET in .CoffeeSearchActivity .
