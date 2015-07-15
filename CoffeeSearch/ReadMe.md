@@ -23,6 +23,7 @@ This activity is the UI interaction layer for application.
 It has a dropdown box to select sample category.
 As of now, we only query for Coffee shops irrespective of the category selected.
 Going ahead, we can query the category and flush the dropdown list accordingly.
+On selecting any shop from the list, It will open nagivation to that shop using google maps.
 
 Presenter : LocationDataPresenter Class
 
