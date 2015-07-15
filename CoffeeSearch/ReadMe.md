@@ -11,13 +11,13 @@ target: 22
 
 The application is designed using MVP architecture.
 
-Model : LocationResults Class
+-Model : LocationResults Class
 
 This class models our data object. Currently I am displaying only Shop name,
 Address and Distance from current location.
 Also we capture the location information so that we can use it for navigation.
 
-View : CoffeeResultActivity Class
+-View : CoffeeResultActivity Class
 
 This activity is the UI interaction layer for application.
 It has a dropdown box to select sample category.
@@ -25,19 +25,19 @@ As of now, we only query for Coffee shops irrespective of the category selected.
 Going ahead, we can query the category and flush the dropdown list accordingly.
 On selecting any shop from the list, It will open nagivation to that shop using google maps.
 
-Presenter : LocationDataPresenter Class
+-Presenter : LocationDataPresenter Class
 
 This class acts as a presenter for UI layer.
 It has our core BI layer logic.
-For getting location, it will interact with :
-
+For getting location, it will interact with 
+--Util classes :
 LocationTracker.java---Service to fetch current location and changes there on.
 VolleyHelper.java   ---Helper Class to create Async HTTP request.
 
 It will also update the data in adapter.
 
-SearchAdapter.java  -- Our Custom adapter to display the shop details.
-This class extends BaseAdapter and implements/overrides the required functions.
+--SearchAdapter.java  -- Our Custom adapter to display the shop details.
+  This class extends BaseAdapter and implements/overrides the required functions.
 
 External Libraries :
 
