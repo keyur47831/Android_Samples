@@ -85,8 +85,8 @@ public class SearchAdapter extends BaseAdapter {
             //We want to display the data in Kilometers so converting on the fly
             //we can give UI option as well to select the Unit
             //but with current requirement, we will hard-code this logic
-            tv.setText("Distance :"+String.valueOf(LocationDisplayItem.getDistance()) + " KM");
-            //tv.setText("Distance :"+String.valueOf(Math.round(LocationDisplayItem.getDistance()*0.001)) + " KM");
+           // tv.setText("Distance :"+String.valueOf(LocationDisplayItem.getDistance()) + " KM");
+            tv.setText("Distance : "+String.valueOf(Math.round(LocationDisplayItem.getDistance()*0.001)) + " KM");
         }
         catch(Exception Ex)
         {
