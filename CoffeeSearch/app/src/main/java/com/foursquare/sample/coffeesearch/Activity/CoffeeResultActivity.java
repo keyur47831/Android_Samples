@@ -28,8 +28,8 @@ public class CoffeeResultActivity extends Activity {
 
      //Hardcoded stuff for foursquare API
     private static final String url="https://api.foursquare.com/v2/venues/search?";
-    final String CLIENT_ID = "ACAO2JPKM1MXHQJCK45IIFKRFR2ZVL0QASMCBCG5NPJQWF2G";
-    final String CLIENT_SECRET = "YZCKUYJ1WHUV2QICBXUBEILZI1DMPUIDP5SHV043O04FKBHL";
+    final String CLIENT_ID = "";
+    final String CLIENT_SECRET = "";
     final String CATEGORY_ID ="4bf58dd8d48988d1e0931735";
 
     //UI elements for activity
